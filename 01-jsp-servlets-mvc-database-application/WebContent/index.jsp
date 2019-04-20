@@ -1,1 +1,1 @@
-<% response.sendRedirect("EmployeeController"); %>
+<% response.sendRedirect("EmployeeController?action=LIST"); %>
