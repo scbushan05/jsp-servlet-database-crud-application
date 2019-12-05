@@ -14,4 +14,14 @@
     <servlet-name>EmployeeController</servlet-name>
     <url-pattern>/EmployeeController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmployeeController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>in.bushansirgur.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/loginprocess</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -8,9 +8,10 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-	
 	<div class = "container">
-	
+		<div class="float-right">
+			<a href="${pageContext.request.contextPath}/logout.jsp">Logout</a>
+		</div>
 		<h1>Employee Directory</h1>
 		<hr/>
 		

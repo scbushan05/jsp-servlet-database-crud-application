@@ -8,3 +8,9 @@ create table tbl_employee(
 	dob varchar(255) not null,
     department varchar(255) not null
 );
+
+create table tbl_login(
+	id int primary key not null auto_increment,
+	email varchar(255) not null,
+	password varchar(255) not null
+);
